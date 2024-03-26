@@ -1,8 +1,3 @@
- This code is used to train a roberta model on amazon product review text
- We divide data in 2 different kinds->2 classifcation, 5 classification
- With the target of debuging, we also have small dataset for debuging.
- All of the analysis and result is in the Data_Processing_Analysis.ipynb
- All of the logs in ./logs
- And the train model is at link 
- link[!https://drive.google.com/file/d/1pw6ghvF7YYBLk2V-LDURs4eMw_npVO_Q/view?usp=sharing]
- link[!https://drive.google.com/file/d/1pw6ghvF7YYBLk2V-LDURs4eMw_npVO_Q/view?usp=drive_link]
+This code is designed for training a RoBERTa model using Amazon product review texts. We categorize the data into two types for different objectives: binary classification and five-way classification. To facilitate debugging, a smaller dataset is also available. Comprehensive analyses and results can be found in the Data_Processing_Analysis.ipynb file. Logs from the training process are stored in the `./logs` directory. The trained model can be accessed via the following links: 
+
+[Download Trained Model (Google Drive)]([https://drive.google.com/file/d/1pw6ghvF7YYBLk2V-LDURs4eMw_npVO_Q/view?usp=sharing](https://drive.google.com/drive/folders/1fXSWaMkOE5SRYzMmqKAcY80lQ9y3ltW5?usp=drive_link))
