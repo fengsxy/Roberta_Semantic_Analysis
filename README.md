@@ -4,3 +4,4 @@ To download the trained RoBERTa model, please click on the following Google Driv
 [Download Trained Model (Google Drive)](https://drive.google.com/drive/folders/1fXSWaMkOE5SRYzMmqKAcY80lQ9y3ltW5?usp=sharing)
 
 
+For train task, just execute python main.py --dataset xx --method xx
