@@ -1,0 +1,21 @@
+> creating model roberta
+> cuda memory allocated: 499891712
+> training arguments:
+>>> data_dir: data
+>>> dataset: amazon-jewel
+>>> model_name: roberta
+>>> method: dualcl
+>>> train_batch_size: 16
+>>> test_batch_size: 64
+>>> num_epoch: 100
+>>> lr: 1e-05
+>>> decay: 0.01
+>>> alpha: 0.5
+>>> temp: 0.1
+>>> backend: False
+>>> timestamp: 1711377007735
+>>> device: cuda
+>>> num_classes: 2
+>>> log_name: amazon-jewel_roberta_dualcl_24-03-25_07-30-07.log
+1/100 - 1.00%
+[train] loss: 5.1768, acc: 67.20

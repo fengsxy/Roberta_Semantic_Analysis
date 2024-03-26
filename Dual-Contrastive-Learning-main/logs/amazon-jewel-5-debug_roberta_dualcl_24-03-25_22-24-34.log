@@ -1,0 +1,101 @@
+> creating model roberta
+> cuda memory allocated: 499900928
+> training arguments:
+>>> data_dir: data
+>>> dataset: amazon-jewel-5-debug
+>>> model_name: roberta
+>>> method: dualcl
+>>> train_batch_size: 16
+>>> test_batch_size: 64
+>>> num_epoch: 100
+>>> lr: 1e-05
+>>> decay: 0.01
+>>> alpha: 0.5
+>>> temp: 0.1
+>>> backend: False
+>>> timestamp: 1711430675952
+>>> device: cuda
+>>> num_classes: 5
+>>> log_name: amazon-jewel-5-debug_roberta_dualcl_24-03-25_22-24-34.log
+iteration2000 [train] loss: 7.0004, acc: 0.41
+iteration4000 [train] loss: 4.7116, acc: 0.43
+iteration6000 [train] loss: 3.8645, acc: 0.44
+iteration8000 [train] loss: 3.4120, acc: 0.46
+iteration10000 [train] loss: 3.1176, acc: 0.49
+iteration10000 [val] loss: 2.5127, acc: 0.64 f1: 0.26
+iteration10000[test] loss: 2.5055, acc: 0.65 f1: 0.27
+iteration12000 [train] loss: 2.8850, acc: 0.51
+iteration14000 [train] loss: 2.7154, acc: 0.53
+iteration16000 [train] loss: 2.5864, acc: 0.55
+iteration18000 [train] loss: 2.4803, acc: 0.56
+iteration20000 [train] loss: 2.3906, acc: 0.58
+iteration20000 [val] loss: 2.3920, acc: 0.65 f1: 0.28
+iteration20000[test] loss: 2.3855, acc: 0.66 f1: 0.29
+1/100 - 1.00%
+[train] loss: 2.3906, acc: 57.59
+[test] loss: 2.3855, acc: 65.88, f1: 0.28
+[val] loss: 2.3920, acc: 65.06, f1: 0.29
+iteration2000 [train] loss: 1.8732, acc: 0.61
+iteration4000 [train] loss: 1.8562, acc: 0.60
+iteration6000 [train] loss: 1.8259, acc: 0.60
+iteration8000 [train] loss: 1.8173, acc: 0.60
+iteration10000 [train] loss: 1.8081, acc: 0.60
+iteration10000 [val] loss: 2.3711, acc: 0.67 f1: 0.32
+iteration10000[test] loss: 2.3709, acc: 0.67 f1: 0.32
+iteration12000 [train] loss: 1.7699, acc: 0.62
+iteration14000 [train] loss: 1.7381, acc: 0.63
+iteration16000 [train] loss: 1.7143, acc: 0.63
+iteration18000 [train] loss: 1.6966, acc: 0.64
+iteration20000 [train] loss: 1.6786, acc: 0.65
+iteration20000 [val] loss: 2.3104, acc: 0.68 f1: 0.38
+iteration20000[test] loss: 2.3069, acc: 0.69 f1: 0.39
+2/100 - 2.00%
+[train] loss: 1.6786, acc: 64.67
+[test] loss: 2.3069, acc: 69.04, f1: 0.38
+[val] loss: 2.3104, acc: 68.12, f1: 0.39
+iteration2000 [train] loss: 1.7188, acc: 0.62
+iteration4000 [train] loss: 1.7090, acc: 0.62
+iteration6000 [train] loss: 1.7111, acc: 0.62
+iteration8000 [train] loss: 1.7005, acc: 0.63
+iteration10000 [train] loss: 1.7006, acc: 0.63
+iteration10000 [val] loss: 2.3767, acc: 0.66 f1: 0.38
+iteration10000[test] loss: 2.3779, acc: 0.66 f1: 0.38
+iteration12000 [train] loss: 1.6738, acc: 0.64
+iteration14000 [train] loss: 1.6488, acc: 0.65
+iteration16000 [train] loss: 1.6321, acc: 0.65
+iteration18000 [train] loss: 1.6171, acc: 0.66
+iteration20000 [train] loss: 1.6058, acc: 0.67
+iteration20000 [val] loss: 2.2825, acc: 0.70 f1: 0.44
+iteration20000[test] loss: 2.2845, acc: 0.71 f1: 0.44
+3/100 - 3.00%
+[train] loss: 1.6058, acc: 66.61
+[test] loss: 2.2845, acc: 70.68, f1: 0.44
+[val] loss: 2.2825, acc: 69.90, f1: 0.44
+iteration2000 [train] loss: 1.6488, acc: 0.65
+iteration4000 [train] loss: 1.6374, acc: 0.66
+iteration6000 [train] loss: 1.6350, acc: 0.66
+iteration8000 [train] loss: 1.6336, acc: 0.65
+iteration10000 [train] loss: 1.6316, acc: 0.65
+iteration10000 [val] loss: 2.3141, acc: 0.68 f1: 0.40
+iteration10000[test] loss: 2.3083, acc: 0.70 f1: 0.41
+iteration12000 [train] loss: 1.6013, acc: 0.67
+iteration14000 [train] loss: 1.5824, acc: 0.67
+iteration16000 [train] loss: 1.5708, acc: 0.68
+iteration18000 [train] loss: 1.5590, acc: 0.68
+iteration20000 [train] loss: 1.5461, acc: 0.69
+iteration20000 [val] loss: 2.2859, acc: 0.69 f1: 0.41
+iteration20000[test] loss: 2.2850, acc: 0.70 f1: 0.42
+4/100 - 4.00%
+[train] loss: 1.5461, acc: 68.93
+[test] loss: 2.2850, acc: 69.54, f1: 0.41
+[val] loss: 2.2859, acc: 68.80, f1: 0.42
+iteration2000 [train] loss: 1.5828, acc: 0.69
+iteration4000 [train] loss: 1.5902, acc: 0.67
+iteration6000 [train] loss: 1.5863, acc: 0.67
+iteration8000 [train] loss: 1.5808, acc: 0.67
+iteration10000 [train] loss: 1.5855, acc: 0.67
+iteration10000 [val] loss: 2.3422, acc: 0.68 f1: 0.41
+iteration10000[test] loss: 2.3396, acc: 0.68 f1: 0.40
+iteration12000 [train] loss: 1.5603, acc: 0.68
+iteration14000 [train] loss: 1.5442, acc: 0.69
+iteration16000 [train] loss: 1.5268, acc: 0.70

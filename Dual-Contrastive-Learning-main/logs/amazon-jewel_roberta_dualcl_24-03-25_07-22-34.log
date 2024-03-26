@@ -1,0 +1,75 @@
+> creating model roberta
+> cuda memory allocated: 499891712
+> training arguments:
+>>> data_dir: data
+>>> dataset: amazon-jewel
+>>> model_name: roberta
+>>> method: dualcl
+>>> train_batch_size: 16
+>>> test_batch_size: 64
+>>> num_epoch: 100
+>>> lr: 1e-05
+>>> decay: 0.01
+>>> alpha: 0.5
+>>> temp: 0.1
+>>> backend: False
+>>> timestamp: 1711376554502
+>>> device: cuda
+>>> num_classes: 2
+>>> log_name: amazon-jewel_roberta_dualcl_24-03-25_07-22-34.log
+1/100 - 1.00%
+[train] loss: 5.8027, acc: 65.50
+[test] loss: 3.6775, acc: 79.50
+[val] loss: 3.6912, acc: 80.00
+2/100 - 2.00%
+[train] loss: 3.4665, acc: 66.30
+[test] loss: 3.1272, acc: 79.60
+[val] loss: 3.1206, acc: 80.00
+3/100 - 3.00%
+[train] loss: 2.5734, acc: 68.80
+[test] loss: 2.8860, acc: 79.60
+[val] loss: 2.8674, acc: 80.00
+4/100 - 4.00%
+[train] loss: 2.3235, acc: 70.30
+[test] loss: 2.4872, acc: 79.60
+[val] loss: 2.4788, acc: 80.50
+5/100 - 5.00%
+[train] loss: 2.0497, acc: 72.00
+[test] loss: 2.3720, acc: 79.90
+[val] loss: 2.3634, acc: 80.50
+6/100 - 6.00%
+[train] loss: 1.9763, acc: 72.20
+[test] loss: 2.3124, acc: 80.60
+[val] loss: 2.3064, acc: 80.60
+7/100 - 7.00%
+[train] loss: 1.8806, acc: 74.30
+[test] loss: 2.3413, acc: 80.30
+[val] loss: 2.3352, acc: 80.60
+8/100 - 8.00%
+[train] loss: 1.8538, acc: 73.30
+[test] loss: 2.2590, acc: 83.50
+[val] loss: 2.2591, acc: 84.00
+9/100 - 9.00%
+[train] loss: 1.7529, acc: 78.10
+[test] loss: 2.2725, acc: 84.80
+[val] loss: 2.2671, acc: 84.10
+10/100 - 10.00%
+[train] loss: 1.7355, acc: 79.00
+[test] loss: 2.3049, acc: 84.40
+[val] loss: 2.2974, acc: 84.40
+11/100 - 11.00%
+[train] loss: 1.7087, acc: 79.40
+[test] loss: 2.2593, acc: 84.90
+[val] loss: 2.2520, acc: 86.00
+12/100 - 12.00%
+[train] loss: 1.6458, acc: 83.80
+[test] loss: 2.2540, acc: 84.60
+[val] loss: 2.2513, acc: 84.80
+13/100 - 13.00%
+[train] loss: 1.6424, acc: 84.90
+[test] loss: 2.2396, acc: 87.40
+[val] loss: 2.2358, acc: 87.40
+14/100 - 14.00%
+[train] loss: 1.6892, acc: 82.60
+[test] loss: 2.2868, acc: 83.90
+[val] loss: 2.2963, acc: 82.60

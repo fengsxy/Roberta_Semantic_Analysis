@@ -1,0 +1,23 @@
+> creating model roberta
+> cuda memory allocated: 499891712
+> training arguments:
+>>> data_dir: data
+>>> dataset: amazon-jewel
+>>> model_name: roberta
+>>> method: ce
+>>> train_batch_size: 16
+>>> test_batch_size: 64
+>>> num_epoch: 100
+>>> lr: 1e-05
+>>> decay: 0.01
+>>> alpha: 0.5
+>>> temp: 0.1
+>>> backend: False
+>>> timestamp: 1711424214191
+>>> device: cuda
+>>> num_classes: 2
+>>> log_name: amazon-jewel_roberta_ce_24-03-25_20-36-54.log
+iteration2000 [train] loss: 0.4006, acc: 0.83
+iteration2000 [val] loss: 0.2377, acc: 0.90 f1: 0.86
+iteration2000[test] loss: 0.2401, acc: 0.90 f1: 0.86
+iteration4000 [train] loss: 0.3150, acc: 0.87

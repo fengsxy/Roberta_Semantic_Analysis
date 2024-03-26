@@ -1,0 +1,45 @@
+> creating model roberta
+> cuda memory allocated: 499891712
+> training arguments:
+>>> data_dir: data
+>>> dataset: amazon-jewel
+>>> model_name: roberta
+>>> method: ce
+>>> train_batch_size: 16
+>>> test_batch_size: 64
+>>> num_epoch: 100
+>>> lr: 1e-05
+>>> decay: 0.01
+>>> alpha: 0.5
+>>> temp: 0.1
+>>> backend: False
+>>> timestamp: 1711425130513
+>>> device: cuda
+>>> num_classes: 2
+>>> log_name: amazon-jewel_roberta_ce_24-03-25_20-52-09.log
+iteration2000 [train] loss: 0.3930, acc: 0.83
+iteration4000 [train] loss: 0.3278, acc: 0.86
+iteration6000 [train] loss: 0.2899, acc: 0.88
+iteration8000 [train] loss: 0.2723, acc: 0.89
+iteration10000 [train] loss: 0.2622, acc: 0.89
+iteration10000 [val] loss: 0.1999, acc: 0.92 f1: 0.88
+iteration10000[test] loss: 0.2002, acc: 0.92 f1: 0.88
+iteration12000 [train] loss: 0.2543, acc: 0.89
+iteration14000 [train] loss: 0.2432, acc: 0.90
+iteration16000 [train] loss: 0.2368, acc: 0.90
+iteration18000 [train] loss: 0.2318, acc: 0.90
+iteration20000 [train] loss: 0.2299, acc: 0.90
+iteration20000 [val] loss: 0.1853, acc: 0.92 f1: 0.88
+iteration20000[test] loss: 0.1868, acc: 0.92 f1: 0.88
+iteration22000 [train] loss: 0.2239, acc: 0.91
+iteration24000 [train] loss: 0.2219, acc: 0.91
+iteration26000 [train] loss: 0.2185, acc: 0.91
+iteration28000 [train] loss: 0.2166, acc: 0.91
+iteration30000 [train] loss: 0.2144, acc: 0.91
+iteration30000 [val] loss: 0.2149, acc: 0.90 f1: 0.87
+iteration30000[test] loss: 0.2154, acc: 0.91 f1: 0.87
+iteration32000 [train] loss: 0.2124, acc: 0.91
+iteration34000 [train] loss: 0.2106, acc: 0.91
+iteration36000 [train] loss: 0.2086, acc: 0.91
+iteration38000 [train] loss: 0.2083, acc: 0.91
+iteration40000 [train] loss: 0.2073, acc: 0.91
