@@ -13,7 +13,7 @@ python main.py --method dualcl --dataset amazon-jewel-balance
 
 ![image](output.png)
 
-###Data Example：
+### Data Example：
 | Text | Label |
 |------|-------|
 | The gold is not as shiny or colorful as advertised. However, I LOVE this purse. It's stiff which is great because when I put it in my car, it holds its shape. It has a compartment for an iPad, cell phone, pens, and an inside zippered pocket as well as an outside zippered pocket. It then also has a zippered middle compartment (big enough to put in folders/notebooks) and open compartments on either side of the zippered so you can easily separate items. Then there is a heavy-duty zipper to close it all up! It's a great purse that is stylish and just unique enough without being crazy. I LOVE LOVE LOVE it!!! | positive |
