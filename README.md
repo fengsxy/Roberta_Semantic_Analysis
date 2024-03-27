@@ -3,17 +3,17 @@ This codebase is tailored for training a RoBERTa model on Amazon product review 
 To download the trained RoBERTa model, please click on the following Google Drive link:
 [Download Trained Model (Google Drive)](https://drive.google.com/drive/folders/1fXSWaMkOE5SRYzMmqKAcY80lQ9y3ltW5?usp=sharing)
 
-
+### Code Execution
 For train task, just execute
-'''
+```python
 pip install -r requirments.txt
 python main.py --method dualcl --dataset amazon-jewel-balance
-'''
+```
 
-train image
+
 ![image](output.png)
 
-Data Example：
+###Data Example：
 | Text | Label |
 |------|-------|
 | The gold is not as shiny or colorful as advertised. However, I LOVE this purse. It's stiff which is great because when I put it in my car, it holds its shape. It has a compartment for an iPad, cell phone, pens, and an inside zippered pocket as well as an outside zippered pocket. It then also has a zippered middle compartment (big enough to put in folders/notebooks) and open compartments on either side of the zippered so you can easily separate items. Then there is a heavy-duty zipper to close it all up! It's a great purse that is stylish and just unique enough without being crazy. I LOVE LOVE LOVE it!!! | positive |
@@ -24,7 +24,7 @@ Data Example：
 
 
 
-Result
+###Result
 Here's the data formatted as a markdown table:
 
 | Model | Data Condition | Data Num | Loss Type | Iteration | Split | Loss | Accuracy (%) | F1 Score |
