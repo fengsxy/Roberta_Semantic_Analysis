@@ -24,7 +24,7 @@ python main.py --method dualcl --dataset amazon-jewel-balance
 
 
 
-###Result
+### Result
 Here's the data formatted as a markdown table:
 
 | Model | Data Condition | Data Num | Loss Type | Iteration | Split | Loss | Accuracy (%) | F1 Score |
